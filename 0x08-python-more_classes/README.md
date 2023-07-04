@@ -1,22 +1,21 @@
-# C - Even more pointers, arrays and strings
+# 0x08. Python - More Classes and Objects
 
-## General
-In this section, we will explore advanced concepts related to pointers, arrays, and strings in the C programming language.
+## Description
+Object Oriented Programming (classmethods and staticmethods) (Classes and Objects)
 
-1. Pointers to Pointers:
-   - Understanding the concept of pointers to pointers.
-   - Declaring and using pointers to pointers.
-   - Double indirection and accessing values through nested pointers.
+## Table of contents
 
-2. Multidimensional Arrays:
-   - Exploring multidimensional arrays.
-   - Declaring and initializing multidimensional arrays.
-   - Accessing and manipulating elements in multidimensional arrays.
-   - Working with arrays of arrays.
-
-3. Standard Library Functions for String Manipulation:
-   - Overview of common C standard library functions for string manipulation.
-   - Working with strings using functions like `strcpy`, `strcat`, `strlen`, `strcmp`, etc.
-   - Understanding the functionality and usage of each function.
-
-Feel free to explore these topics in detail to enhance your understanding of pointers, arrays, and strings in C programming.
+Files | Description
+----------- | -----------
+[.gitignore](./.gitignore) | Ignore test files
+[0-rectangle.py](./0-rectangle.py) | An empty class Rectangle that defines a rectangle:
+[1-rectangle.py](./1-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
+[2-rectangle.py](./2-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
+[3-rectangle.py](./3-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 2-rectangle.py)
+[4-rectangle.py](./4-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
+[5-rectangle.py](./5-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 4-rectangle.py)
+[6-rectangle.py](./6-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
+[7-rectangle.py](./7-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
+[8-rectangle.py](./8-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
+[9-rectangle.py](./9-rectangle.py) | A class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
+[101-nqueens.py](./101-nqueens.py) | Determines all possible solutions to placing N. N non-attacking queens on an NxN chessboard.
