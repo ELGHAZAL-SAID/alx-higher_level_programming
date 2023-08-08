@@ -4,7 +4,7 @@
 
 class Square():
     """Empty Square class"""
-    def __init__(self, size = None):
+    def __init__(self, size):
         
         """constructor
             args:
