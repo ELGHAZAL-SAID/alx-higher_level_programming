@@ -31,7 +31,7 @@ class Square():
         elif value[0] < 0 or value[1] < 0:
             raise TypeError('position must be a tuple of 2 positive integers')
         else:
-            self.__position = tuple(value)
+            self.__position = value
 
     def __init__(self, size=0, position=(0, 0)):
         if not isinstance(size, int):
@@ -40,7 +40,7 @@ class Square():
             raise ValueError('size must be >= 0')
         else:
             self.__size = int(size)
-        self.__position = position
+        self.__position = tuple(position)
 
     def area(self):
         return self.__size*self.__size
