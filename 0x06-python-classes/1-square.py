@@ -8,7 +8,7 @@ class Square():
         
         """constructor
             args:
-                size (no type) : size of the square
+                size (None): size of the square `size`.
         """
         
         self.__size = size
