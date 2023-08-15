@@ -1,2 +1,2 @@
 -- say my name scarlet
-select score, name from second_table where name != '' group by score desc;
+SELECT score, name FROM second_table WHERE name IS NOT NULL GROUP BY score DESC;
