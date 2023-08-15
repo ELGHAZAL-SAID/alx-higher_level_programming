@@ -1,5 +1,5 @@
 -- create and insert data in table
-CREATE IF NOT EXISTS second_table(
+CREATE TABLE IF NOT EXISTS second_table(
     id INT,
     name VARCHAR(256),
     score INT
