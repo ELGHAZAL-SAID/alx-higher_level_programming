@@ -1,2 +1,2 @@
 -- sort be order
-SELECT id, name FROM second_table ORDER BY id;
+SELECT score, name FROM second_table ORDER BY score DESC;
